@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from sqlmodel.ext.asyncio.session import AsyncSession
 from sqlmodel import select
 from models import User, UserCreate
-
+from database import get_session
 load_dotenv()
 
 # Password hashing

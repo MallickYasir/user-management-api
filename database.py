@@ -1,5 +1,4 @@
 from sqlmodel import SQLModel, create_engine, Session
-import database
 
 # 1. Database URL (Using SQLite for simplicity)
 sqlite_url = "sqlite:///database.db"
@@ -9,7 +8,6 @@ engine = create_engine(sqlite_url)
 
 # 3. Function to create tables
 def create_db_and_tables():
-    
     SQLModel.metadata.create_all(engine)
 
 # 4. Function to get database session
