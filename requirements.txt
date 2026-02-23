@@ -1,0 +1,6 @@
+fastapi
+sqlmodel
+uvicorn
+passlib
+python-jose
+python-dotenv
