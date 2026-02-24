@@ -1,8 +1,8 @@
-# 🚀 FastAPI MySQL User Management API
+# FastAPI MySQL User Management API
 
 A secure, production-ready REST API built with **FastAPI**, **SQLModel**, and **MySQL**. It features JWT authentication, role-based access control, and full CRUD operations for users and items.
 
-## ✨ Features
+## Features
 - 🔐 **JWT Authentication**: Secure login and registration with password hashing (Bcrypt).
 - 👤 **User Management**: Register, login, and profile management.
 - 📦 **Item CRUD**: Create, Read, Update, Delete items linked to specific users.
@@ -17,9 +17,9 @@ A secure, production-ready REST API built with **FastAPI**, **SQLModel**, and **
 - **Security**: Python-Jose (JWT), Passlib (Password Hashing)
 - **Environment**: python-dotenv
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the repository
 ```bash
 git clone <https://github.com/MallickYasir/user-management-api>
-cd user-management-api
+cd user-management-apicls

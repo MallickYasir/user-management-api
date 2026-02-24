@@ -33,7 +33,7 @@ app = FastAPI(
 # ========================================
 @app.on_event("startup")
 async def on_startup():
-    await database.init_db()
+    
 
 # ========================================
 # Health check endpoint
